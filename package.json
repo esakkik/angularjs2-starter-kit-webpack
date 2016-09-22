@@ -4,7 +4,8 @@
   "description": "AngularJS-2 Starter kit",
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8080",
-    "postinstall": "typings install"
+    "postinstall": "typings install",
+    "build": "webpack --progress"
   },
   "keywords": [
     "angularjs2",
